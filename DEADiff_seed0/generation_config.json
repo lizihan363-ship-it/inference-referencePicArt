@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "method": "DEADiff",
+  "seed": 0,
+  "subject_text": "style",
+  "sampler": "ddim",
+  "steps": 50,
+  "cfg": 8.0,
+  "image_weight": 1.0,
+  "batch_size": 1,
+  "resolution": [
+    512,
+    512
+  ],
+  "negative_prompt": "over-exposure, under-exposure, saturated, duplicate, out of frame, lowres, cropped, worst quality, low quality, jpeg artifacts, morbid, mutilated, out of frame, ugly, bad anatomy, bad proportions, deformed, blurry, duplicate",
+  "reference_preprocessing": "Unmodified official DEADiff.generate RGB resize to 224x224 and normalization",
+  "git_revision": "df3238da32037d0ac5054f55df8388cc08021bcf",
+  "app_sha256": "95fbb5e1fd2c66e362004179018ae18254c3c0e59059eff089cd5e95c9dde857",
+  "config_sha256": "8cd26af581f44e60c46b40f7218ce95979e37ced6645ee61d82f4004b7d110d5",
+  "runner_sha256": "e20f3b38a8e16ab601be5b02fe7ca1489a128db1e54b06e1fa28a69ea34266d4",
+  "checkpoint_sha256": "b485088b9e0134a53ea686929e385e78c22a16a965bdd4f78a94d1077eb828cf",
+  "prompts_sha256": "78dc93e82b899b8485a41cc5a92ee2e15134c9e0e158e04e502bf43b77028312",
+  "package_versions": {
+    "torch": "2.0.0",
+    "torchvision": "0.15.0",
+    "pytorch-lightning": "1.8.6",
+    "diffusers": "0.16.0",
+    "transformers": "4.28.0",
+    "salesforce-lavis": "1.0.1",
+    "xformers": "0.0.17",
+    "Pillow": "9.5.0"
+  },
+  "total": 1200
+}

@@ -1,0 +1,24 @@
+{
+  "state": "complete",
+  "metric": "dino_reference_cosine",
+  "direction": "higher means closer",
+  "methods": {
+    "DEADiff_data1200_seed0_20261107": {
+      "dino_reference_cosine": {
+        "n": 1200,
+        "mean": 0.15411656570698445,
+        "std": 0.08971028705102568,
+        "median": 0.14711960405111313,
+        "min": -0.050001341849565506,
+        "max": 0.5999511480331421
+      }
+    }
+  },
+  "images_per_method": 1200,
+  "total_pairs": 1200,
+  "reference_count": 60,
+  "prompt_count": 20,
+  "config_sha256": "b1579a4f9b925f0c134a46d6c3d624dd80cb1072d7ab01ce2a0df02ee2d63ade",
+  "groups": "overall only",
+  "feature_cache_sha256": "5e2b44b65035dbd261080bd7197a09d567460dffd097b011b88ad0228c03c8a4"
+}

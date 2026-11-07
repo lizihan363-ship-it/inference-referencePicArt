@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "method": "DEADiff",
+  "completed_at": "2026-11-07T09:06:36.950505+00:00",
+  "archive_sha256": "9ee0e1000b087ec0c623d961885afc64bed2c3ccb6228d45e3ab530609dcf350",
+  "changed_reference_ids": [
+    "E21",
+    "E30"
+  ],
+  "updated_images": 40,
+  "pixel_changed_images": 40,
+  "untouched_images_verified": 1160,
+  "total_images": 1200,
+  "seed": 0,
+  "generation_parameters_unchanged": true
+}

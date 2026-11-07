@@ -1,0 +1,158 @@
+{
+  "passed": true,
+  "errors": [],
+  "started_at_utc": "2026-11-07T09:26:34.268224+00:00",
+  "package": {
+    "verified_files": 41,
+    "file_manifest_sha256": "c6b9305c0b69aec3732d789eb8779c30b8b9436e11c51111cacd054f3ef4b0a8"
+  },
+  "backend_sha256": "0d21c71c654a084bf3b93f0e1d5cdc0901ec7667b7aecd07c7e3ec578cab4373",
+  "expected_protocol_sha256": "6350c09d966f4bdce8f30cf26e7e0467193af4748d27d93718397b01b06c49a1",
+  "metric_selection": "all",
+  "inputs": {
+    "pair_count": 1200,
+    "reference_count": 60,
+    "prompt_count": 20,
+    "evaluation_seed": 0
+  },
+  "input_manifest_sha256": "b43ffa5ff7f72e4c29f0330fb7de62a6207b2b30cc19823ef04f286361878fd7",
+  "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+  "packages_expected": {
+    "torch": "2.8.0+cu128",
+    "torchvision": "0.23.0+cu128",
+    "transformers": "4.46.3",
+    "clip": "1.0",
+    "dreamsim": "0.2.1",
+    "peft": "0.13.2",
+    "numpy": "2.3.2",
+    "Pillow": "11.3.0",
+    "safetensors": "0.8.0",
+    "tokenizers": "0.20.3",
+    "timm": "0.9.16",
+    "open_clip_torch": "2.26.1",
+    "accelerate": "1.1.1",
+    "ftfy": "6.3.1"
+  },
+  "packages_actual": {
+    "torch": "2.8.0+cu128",
+    "torchvision": "0.23.0+cu128",
+    "transformers": "4.46.3",
+    "clip": "1.0",
+    "dreamsim": "0.2.1",
+    "peft": "0.13.2",
+    "numpy": "2.3.2",
+    "Pillow": "11.3.0",
+    "safetensors": "0.8.0",
+    "tokenizers": "0.20.3",
+    "timm": "0.9.16",
+    "open_clip_torch": "2.26.1",
+    "accelerate": "1.1.1",
+    "ftfy": "6.3.1"
+  },
+  "runtime_probe": {
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 4080 SUPER",
+    "cpu_threads": 8,
+    "tf32_matmul": false,
+    "tf32_cudnn": false,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "float32_matmul_precision": "highest",
+    "hardware_model_required_to_match": false
+  },
+  "models_root": "/root/autodl-tmp/metrics-deadiff-data1200-seed0-20261107/models",
+  "model_files_verified": {
+    "clip/ViT-L-14.pt": {
+      "size": 932768134,
+      "sha256": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836"
+    },
+    "clip_h14/config.json": {
+      "size": 4725,
+      "sha256": "50150597fccadc90f3198d1c2caf2c41d88a40908c38fb428ea56c249b501d85"
+    },
+    "clip_h14/merges.txt": {
+      "size": 524618,
+      "sha256": "f1cd414c2d113a28b296afc0fd66ae854c0e0c34d5de373a2f5b7f62e0c02344"
+    },
+    "clip_h14/model.safetensors": {
+      "size": 3944552236,
+      "sha256": "036e6e2bd49697511f4f8b8cb5ee465f93025f7a69a145eadeb9a881ace9b18d"
+    },
+    "clip_h14/preprocessor_config.json": {
+      "size": 316,
+      "sha256": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd"
+    },
+    "clip_h14/special_tokens_map.json": {
+      "size": 389,
+      "sha256": "f8c0d6c39aee3f8431078ef6646567b0aba7f2246e9c54b8b99d55c22b707cbf"
+    },
+    "clip_h14/tokenizer.json": {
+      "size": 2224041,
+      "sha256": "b556ac8c99757ffb677208af34bc8c6721572114111a6e0aaf5fa69ff0b8d842"
+    },
+    "clip_h14/tokenizer_config.json": {
+      "size": 904,
+      "sha256": "e19f34ef773563fb695f96cfcae1e4c7b112ab6ad532f6962061df5242d924f0"
+    },
+    "clip_h14/vocab.json": {
+      "size": 862328,
+      "sha256": "5047b556ce86ccaf6aa22b3ffccfc52d391ea4accdab9c2f2407da5b742d4363"
+    },
+    "csd/config.json": {
+      "size": 34,
+      "sha256": "c84b12fd5371203f06ebbe752757fa73e23da873de365f357805abdc9faa65f5"
+    },
+    "csd/pytorch_model.bin": {
+      "size": 2438228893,
+      "sha256": "40e92fad63a361b8136100cd234c42d401ef9b34ff1748234318929ebcc7e7a1"
+    },
+    "dreamsim/checkpoints/dino_vitbase16_pretrain.pth": {
+      "size": 343242485,
+      "sha256": "bf34ad0f424b9029b593e8dc3ed553bf26e88bcba0d32bf3e62a6209cb64c85e"
+    },
+    "dreamsim/clip_vitb16_pretrain.pth.tar": {
+      "size": 344825295,
+      "sha256": "21bb58dddc9747d635638eaef19a50404fa71ef62b837c4181c92568a5d78779"
+    },
+    "dreamsim/dino_vitb16_pretrain.pth": {
+      "size": 871077689,
+      "sha256": "491ec6200b350dd7d532cea1b040846cbc1b4ae038299331168fdd3e0361e262"
+    },
+    "dreamsim/ensemble_lora/adapter_config.json": {
+      "size": 687,
+      "sha256": "188f2c0640295f91a4375efd0a1594e5985bb38c90a9040cec8c5f4b9f8f0e20"
+    },
+    "dreamsim/ensemble_lora/adapter_model.safetensors": {
+      "size": 7088032,
+      "sha256": "a33ba2cbfc52a96f1fa220d7d036fd17e00d5fc9b467be2f97a5482e8a2b09c1"
+    },
+    "dreamsim/facebookresearch_dino_main/hubconf.py": {
+      "size": 5653,
+      "sha256": "fa80babf82c71d2123e23b05061eb1991a1fbc9877238f250b2a25023e910f72"
+    },
+    "dreamsim/facebookresearch_dino_main/utils.py": {
+      "size": 28039,
+      "sha256": "962a97e1acda1c986dfd921275325e4083f9016dddadcf018f1ccf03fa600eab"
+    },
+    "dreamsim/facebookresearch_dino_main/vision_transformer.py": {
+      "size": 11150,
+      "sha256": "b1f998d5f49ab43666b9fc6d007c5f6540c3ead2e8645e144f74045f63ff44d7"
+    },
+    "dreamsim/open_clip_vitb16_pretrain.pth.tar": {
+      "size": 344829345,
+      "sha256": "963c665c8ba6edd6ef7a7549f3f72fe20586494223300030f5b2efbe36f04319"
+    },
+    "vgg19/vgg19-dcbb9e9d.pth": {
+      "size": 574673361,
+      "sha256": "dcbb9e9dad569fff7a846263a77324fc34978fea2bfb039c012d710e1776ae44"
+    }
+  },
+  "six_validation_sha256": "aa40010ce7555dda719e2a2b01ff56263c95a00e669e0dc4a447366caa810f17",
+  "dino_validation_sha256": "e9fea98e1c9aec60bc7075ed19e979328a9015979096b97907f00b9d802c7dc9",
+  "package_after_run": {
+    "verified_files": 41,
+    "file_manifest_sha256": "c6b9305c0b69aec3732d789eb8779c30b8b9436e11c51111cacd054f3ef4b0a8"
+  },
+  "combined_summary_sha256": "b72c122c256eafbf91e77ca591e15079f5457ae55e5df122d375eeba9864786c",
+  "completed_at_utc": "2026-11-07T09:32:02.197151+00:00"
+}

@@ -1,0 +1,204 @@
+{
+  "script_sha256": "0d21c71c654a084bf3b93f0e1d5cdc0901ec7667b7aecd07c7e3ec578cab4373",
+  "packages": {
+    "torch": "2.8.0+cu128",
+    "torchvision": "0.23.0+cu128",
+    "transformers": "4.46.3",
+    "clip": "1.0",
+    "dreamsim": "0.2.1",
+    "peft": "0.13.2",
+    "numpy": "2.3.2",
+    "Pillow": "11.3.0",
+    "safetensors": "0.8.0"
+  },
+  "model_files": {
+    "clip/ViT-L-14.pt": {
+      "sha256": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836",
+      "size": 932768134
+    },
+    "clip_h14/config.json": {
+      "sha256": "50150597fccadc90f3198d1c2caf2c41d88a40908c38fb428ea56c249b501d85",
+      "size": 4725
+    },
+    "clip_h14/merges.txt": {
+      "sha256": "f1cd414c2d113a28b296afc0fd66ae854c0e0c34d5de373a2f5b7f62e0c02344",
+      "size": 524618
+    },
+    "clip_h14/model.safetensors": {
+      "sha256": "036e6e2bd49697511f4f8b8cb5ee465f93025f7a69a145eadeb9a881ace9b18d",
+      "size": 3944552236
+    },
+    "clip_h14/preprocessor_config.json": {
+      "sha256": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd",
+      "size": 316
+    },
+    "clip_h14/special_tokens_map.json": {
+      "sha256": "f8c0d6c39aee3f8431078ef6646567b0aba7f2246e9c54b8b99d55c22b707cbf",
+      "size": 389
+    },
+    "clip_h14/tokenizer.json": {
+      "sha256": "b556ac8c99757ffb677208af34bc8c6721572114111a6e0aaf5fa69ff0b8d842",
+      "size": 2224041
+    },
+    "clip_h14/tokenizer_config.json": {
+      "sha256": "e19f34ef773563fb695f96cfcae1e4c7b112ab6ad532f6962061df5242d924f0",
+      "size": 904
+    },
+    "clip_h14/vocab.json": {
+      "sha256": "5047b556ce86ccaf6aa22b3ffccfc52d391ea4accdab9c2f2407da5b742d4363",
+      "size": 862328
+    },
+    "csd/config.json": {
+      "sha256": "c84b12fd5371203f06ebbe752757fa73e23da873de365f357805abdc9faa65f5",
+      "size": 34
+    },
+    "csd/pytorch_model.bin": {
+      "sha256": "40e92fad63a361b8136100cd234c42d401ef9b34ff1748234318929ebcc7e7a1",
+      "size": 2438228893
+    },
+    "dreamsim/checkpoints/dino_vitbase16_pretrain.pth": {
+      "sha256": "bf34ad0f424b9029b593e8dc3ed553bf26e88bcba0d32bf3e62a6209cb64c85e",
+      "size": 343242485
+    },
+    "dreamsim/clip_vitb16_pretrain.pth.tar": {
+      "sha256": "21bb58dddc9747d635638eaef19a50404fa71ef62b837c4181c92568a5d78779",
+      "size": 344825295
+    },
+    "dreamsim/dino_vitb16_pretrain.pth": {
+      "sha256": "491ec6200b350dd7d532cea1b040846cbc1b4ae038299331168fdd3e0361e262",
+      "size": 871077689
+    },
+    "dreamsim/ensemble_lora/adapter_config.json": {
+      "sha256": "188f2c0640295f91a4375efd0a1594e5985bb38c90a9040cec8c5f4b9f8f0e20",
+      "size": 687
+    },
+    "dreamsim/ensemble_lora/adapter_model.safetensors": {
+      "sha256": "a33ba2cbfc52a96f1fa220d7d036fd17e00d5fc9b467be2f97a5482e8a2b09c1",
+      "size": 7088032
+    },
+    "dreamsim/facebookresearch_dino_main/hubconf.py": {
+      "sha256": "fa80babf82c71d2123e23b05061eb1991a1fbc9877238f250b2a25023e910f72",
+      "size": 5653
+    },
+    "dreamsim/facebookresearch_dino_main/utils.py": {
+      "sha256": "962a97e1acda1c986dfd921275325e4083f9016dddadcf018f1ccf03fa600eab",
+      "size": 28039
+    },
+    "dreamsim/facebookresearch_dino_main/vision_transformer.py": {
+      "sha256": "b1f998d5f49ab43666b9fc6d007c5f6540c3ead2e8645e144f74045f63ff44d7",
+      "size": 11150
+    },
+    "dreamsim/open_clip_vitb16_pretrain.pth.tar": {
+      "sha256": "963c665c8ba6edd6ef7a7549f3f72fe20586494223300030f5b2efbe36f04319",
+      "size": 344829345
+    },
+    "vgg19/vgg19-dcbb9e9d.pth": {
+      "sha256": "dcbb9e9dad569fff7a846263a77324fc34978fea2bfb039c012d710e1776ae44",
+      "size": 574673361
+    }
+  },
+  "expected_methods": [
+    "DEADiff_data1200_seed0_20261107"
+  ],
+  "expected_count_per_method": 1200,
+  "input_pairs_sha256": "9a99bc9ea86a427b83eb3448b8b66fd9761e54eb034caad7138f579b7aeccb0e",
+  "precision": "float32, inference_mode; TF32 disabled",
+  "batch_size": 8,
+  "device": "cuda",
+  "seed": 0,
+  "preprocessing": {
+    "csd": {
+      "resize": "shorter-edge 224",
+      "crop": "center 224x224",
+      "interpolation": "PIL bicubic",
+      "mean": [
+        0.48145466,
+        0.4578275,
+        0.40821073
+      ],
+      "std": [
+        0.26862954,
+        0.26130258,
+        0.27577711
+      ],
+      "output": "official normalized style_output"
+    },
+    "clip_h14": {
+      "resize": "shorter-edge 224",
+      "crop": "center 224x224",
+      "interpolation": "PIL bicubic",
+      "mean": [
+        0.48145466,
+        0.4578275,
+        0.40821073
+      ],
+      "std": [
+        0.26862954,
+        0.26130258,
+        0.27577711
+      ],
+      "output": "raw cosine; no logit_scale and no x100"
+    },
+    "dreamsim": {
+      "resize": "official square 224x224",
+      "interpolation": "PIL bicubic",
+      "input": "RGB [0,1], per-backbone normalization inside official model",
+      "model": "ensemble; normalize_embeds=True; default CLS/embedding branches"
+    },
+    "gram": {
+      "resize": [
+        512,
+        512
+      ],
+      "crop": null,
+      "interpolation": "PIL bicubic",
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ],
+      "layers": [
+        "relu1_1",
+        "relu2_1",
+        "relu3_1",
+        "relu4_1",
+        "relu5_1"
+      ],
+      "torchvision_feature_indices": [
+        1,
+        6,
+        11,
+        20,
+        29
+      ],
+      "gram": "F F^T / (C H W), independently per image",
+      "distance": "MSE over all C*C entries per layer, arithmetic mean of 5 layers"
+    }
+  },
+  "image_decode": "Pillow EXIF transpose then RGB for both reference and generation",
+  "leakage": {
+    "formula": "s(g,c_ref)/s(ref,c_ref) if s(g,c_ref)<s(g,target) else 1",
+    "epsilon_or_clipping": false,
+    "zero_denominator_in_ratio_branch": "fail explicitly",
+    "denominator_at_most_1e-6": "flag only; do not alter paper equation"
+  },
+  "metric_directions": {
+    "csd_style_cosine": "higher",
+    "gram_style_distance": "lower",
+    "dreamsim_distance": "lower",
+    "clip_t_target_cosine": "higher",
+    "leakage_score": "lower",
+    "clip_t_reference_content_cosine": "lower (leakage diagnostic)"
+  },
+  "network": "INET sockets blocked; all weights local",
+  "sources": {
+    "csd": "https://github.com/learn2phoenix/CSD/blob/main/CSD/model.py",
+    "csd_transform": "https://github.com/learn2phoenix/CSD/blob/main/CSD/loss_utils.py",
+    "dreamsim": "https://github.com/ssundaram21/dreamsim"
+  }
+}

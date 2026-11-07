@@ -1,0 +1,433 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "description_policy": "content only; describe directly visible subjects, counts, poses, clothing, props, and identifiable background objects; exclude style, medium, brushwork, artist, color palette, inferred identity, and invented narrative",
+  "references": [
+    {
+      "reference_id": "C01",
+      "image_relative_path": "references/C01.jpg",
+      "content_description": "Five nude women pose among hanging drapery; several raise their arms, one crouches in front, and grapes and other fruit lie near their feet.",
+      "sha256": "dd6efee526bc1f37372c64707437963a3ee6e121e86bd63b222f7c9e60307074",
+      "annotation_source": "reused unchanged original benchmark description; exact reference SHA256 match"
+    },
+    {
+      "reference_id": "C02",
+      "image_relative_path": "references/C02.jpg",
+      "content_description": "One woman wearing a flowered hat, earrings, and a jacket holds a crumpled handkerchief against her nose and mouth with both hands before a paneled wall.",
+      "sha256": "0a03a117fa07aa1a2f022c7d572be8c5d2a7164f392106f33dac3523b731c0ae",
+      "annotation_source": "reused unchanged original benchmark description; exact reference SHA256 match"
+    },
+    {
+      "reference_id": "C03",
+      "image_relative_path": "references/C03.jpg",
+      "content_description": "One woman sits in an upholstered armchair with her eyes closed and head tilted sideways, wearing a bead necklace and loose garment, with her hands resting in her lap.",
+      "sha256": "7495598c606988e37ea716c7625cc586bdb8221d8fa6f720d1b255156939ef56",
+      "annotation_source": "reused unchanged original benchmark description; exact reference SHA256 match"
+    },
+    {
+      "reference_id": "C04",
+      "image_relative_path": "references/C04.jpg",
+      "content_description": "Three seated figures wear hats or head coverings; one holds a clarinet, another a guitar, and the third sits behind an open sheet of music.",
+      "sha256": "d4655c28c574d2c9fda71f57a3c12028d67a6286d0009a058436f2def0491b9a",
+      "annotation_source": "reused unchanged original benchmark description; exact reference SHA256 match"
+    },
+    {
+      "reference_id": "C05",
+      "image_relative_path": "references/C05.jpg",
+      "content_description": "A tabletop holds two cups on saucers, stemmed drinking glasses, bottles, and a small wrapped package; printed papers lie near the front edge.",
+      "sha256": "1ffe7c9f12864e11d1d5e61fd323695b8d167884392d5712c6ca00e3ff05a849",
+      "annotation_source": "reused unchanged original benchmark description; exact reference SHA256 match"
+    },
+    {
+      "reference_id": "C06",
+      "image_relative_path": "references/C06.jpg",
+      "content_description": "One seated woman holds a spoon above a cup and saucer on a table, with her other hand resting near the table's front edge.",
+      "sha256": "8cacd70016d006c74f2d2b521481faa60090b4278495dfe1755596e2bec67a02",
+      "annotation_source": "reused unchanged original benchmark description; exact reference SHA256 match"
+    },
+    {
+      "reference_id": "C07",
+      "image_relative_path": "references/C07.jpg",
+      "content_description": "One short-haired person faces forward with bare shoulders and upper chest, in front of closely grouped buildings with rooftops and shuttered windows.",
+      "sha256": "3ca9a53848dd950a26cedb6219a4fb8b4d3d6a3a4e854d93887b38af01b18ac4",
+      "annotation_source": "reused unchanged original benchmark description; exact reference SHA256 match"
+    },
+    {
+      "reference_id": "C08",
+      "image_relative_path": "references/C08.jpg",
+      "content_description": "One man in a jacket and trousers sits cross-legged in an armchair, resting both hands on an open book across his lap, with trees behind him.",
+      "sha256": "d006909e6ec0c72c5711d810ae7fec780d356d280ab714e67d7e9e1cc8309a0d",
+      "annotation_source": "reused unchanged original benchmark description; exact reference SHA256 match"
+    },
+    {
+      "reference_id": "C09",
+      "image_relative_path": "references/C09.jpg",
+      "content_description": "A stringed instrument with a long neck stands among bottles and drinking vessels arranged on a tabletop, with several objects overlapping one another.",
+      "sha256": "3e834560e9b03471c2c34358e33d5524d29e93c2112304a2bc9bc0a927986715",
+      "annotation_source": "reused unchanged original benchmark description; exact reference SHA256 match"
+    },
+    {
+      "reference_id": "C10",
+      "image_relative_path": "references/C10.jpg",
+      "content_description": "A single human face fills the image, with a prominent nose, a small mouth, an eye near the upper right, and the chin near the lower center.",
+      "sha256": "d54078d75cd364bb8d6cde3a37d06d6ece0497d32dd42d402071c222fe3c9dd7",
+      "annotation_source": "reused unchanged original benchmark description; exact reference SHA256 match"
+    },
+    {
+      "reference_id": "C11",
+      "image_relative_path": "references/C11.jpg",
+      "sha256": "1bbb8002351c32245680f4c1dae3e818d53d0f34aef1018116b6ea3050f212f6",
+      "content_description": "A stemmed glass stands beside tall vessels, with the broad rounded body of a stringed instrument behind them and a separate instrument neck rising at the left.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "C12",
+      "image_relative_path": "references/C12.jpg",
+      "sha256": "9c35fb15aeaa556333c0813b74b755bbbc27a81d2e9a7c7d8febd8f9b4bef820",
+      "content_description": "Closely packed houses with steep roofs, chimneys, and small windows fill the scene, with overlapping rooflines and narrow gaps between buildings extending into the background.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "C13",
+      "image_relative_path": "references/C13.jpg",
+      "sha256": "c0aa717e4d7dec72ec3a5ff795783f0f1b759541c595fca6b20c75431d8238cd",
+      "content_description": "A nude woman reclines against a cushion with her head tilted down, one arm bent behind her head and the other extended alongside her body.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "C14",
+      "image_relative_path": "references/C14.jpg",
+      "sha256": "a32b5dbbb3cd4b7cf8ab73fd6ac6f198fca19c9549b7fc6379462855f4f06d9f",
+      "content_description": "Four nude figures sit or recline closely together, with overlapping bent legs, raised arms, and open hands, against a largely empty background with a few plant leaves.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "C15",
+      "image_relative_path": "references/C15.jpg",
+      "sha256": "f1dbc35c868a74ba26f6e206e24042e06b6e54583837de0cc024aa5a601f35c2",
+      "content_description": "One figure holds a bent pipe in front of the body, beside a small table, while a small animal crouches near the feet amid rails and upright posts.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "C16",
+      "image_relative_path": "references/C16.jpg",
+      "sha256": "ec398513f7cc73a032ad24a3ce772f2f3bde25594023f6295eec874f0c0f1a66",
+      "content_description": "A stemmed bowl of grapes and other fruit sits above a drinking glass and overlapping sheets, with a long narrow instrument lying across the right side of the table.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "C17",
+      "image_relative_path": "references/C17.jpg",
+      "sha256": "f0b01d2fef6af36245ce6ce4224a171c6598ee7ca774e8a89a7436114821b91f",
+      "content_description": "A rounded stringed instrument, a stemmed glass, and a plate holding three pieces of fruit rest on a draped table among overlapping papers and small objects.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "C18",
+      "image_relative_path": "references/C18.jpg",
+      "sha256": "1503bfc8c74a1976dba37ba615eb177db37977e799ba5842b6cfc5f25a2eb39b",
+      "content_description": "A large human head with one visible eye fills the right side beside a hand holding a lit candle, with curling smoke rising on the left.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "C19",
+      "image_relative_path": "references/C19.jpg",
+      "sha256": "2da19ad58698c81210f0f30ea00515af0b7f03b914de7620e13ff30e24e9056a",
+      "content_description": "A tree rises before houses and a low masonry wall, while a small figure stands along the path at the lower right and an open doorway appears at the left.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "C20",
+      "image_relative_path": "references/C20.jpg",
+      "sha256": "487f74fd9530a71059df4648512474d89b328793985db5b6a2ee31e68b3473cf",
+      "content_description": "Upright bottles and drinking vessels overlap on a table, with a knife lying diagonally across a rounded plate in the foreground and small rectangular papers between the containers.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "C21",
+      "image_relative_path": "references/C21.jpg",
+      "sha256": "26542137e4fd9e35bf9d76e24207fa529594a7cd21e7c50caee1b980259a4e80",
+      "content_description": "A plate of fruit sits before an open book on a draped table, with a drinking glass and a tall stemmed bowl of grapes to the left.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "C22",
+      "image_relative_path": "references/C22.jpg",
+      "sha256": "1065ab466b03b65f6ca181db3c2e41f3a074103755487038e6857aea0abc5f68",
+      "content_description": "A seated figure holds a guitar across the lap, with one hand on the neck and the other over the strings, beside an empty chair.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "C23",
+      "image_relative_path": "references/C23.jpg",
+      "sha256": "654c65eaa57a44cdb799d847477ce9397d70bccdce810ac9fa13afe8dc43f21d",
+      "content_description": "Two people wearing hats sit close together outdoors, one leaning sideways across the foreground while the other sits upright, with clustered rooftops behind them.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "C24",
+      "image_relative_path": "references/C24.jpg",
+      "sha256": "5dbb15bb25744668e1df9f5b0265cb101e99c869a4ea6cc9886728363c798eb3",
+      "content_description": "A small seated figure with a head covering rests at the lower left among large rocks, beside a tall conifer and steep, layered rock faces.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "C25",
+      "image_relative_path": "references/C25.jpg",
+      "sha256": "5372821f568bd6f0b9231a330b837670d1fa73e33e7b5c2672111241b9367495",
+      "content_description": "A small figure with shoulder-length hair and prominent eyes holds a single flower diagonally across the body, with the legs extending down onto a broad curved base.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "C26",
+      "image_relative_path": "references/C26.jpg",
+      "sha256": "3b8802aaf163e3a87eea6e2ba5386a3a86c8c20d80a9a17f1edfdfbff35eafd3",
+      "content_description": "A pitcher holding brushes, cups, a dish of fruit, flowers, and branching pieces fill a table, with cropped nude figures behind and musical notation at the right.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "C27",
+      "image_relative_path": "references/C27.jpg",
+      "sha256": "3242a93d37de6fd305c03b2f6c4e74e26595b6b20b7fe1cfbd3956f5c40b4c2b",
+      "content_description": "A seated person faces forward in an armchair, resting both hands near the armrests and wearing a broad hat topped with a spiral and small flower-like shapes.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "C28",
+      "image_relative_path": "references/C28.jpg",
+      "sha256": "5f54c63560311ad8065954df6fc2214f64eb0e6519333d8b1c1d12fe3e320f3f",
+      "content_description": "A guitar lies across a round, draped table beside a tall stemmed bowl holding two round fruits, with paneled doors and a dark opening behind.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "C29",
+      "image_relative_path": "references/C29.jpg",
+      "sha256": "3598d9834377f7f18306f57f4e0561819a6e29c6949bb2c5c850203e4b8e25bb",
+      "content_description": "Several overlapping human figures fill the image, with prominent faces near the top and bare arms raised overhead or extended across their chests.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "C30",
+      "image_relative_path": "references/C30.jpg",
+      "sha256": "0b67b1cd5d63e4780ca0b851ea458540ab07bc79f6ec3cf1fa4aa5faf9eae51d",
+      "content_description": "A single human figure has a partially visible face above a broad torso, with one hand held upright beside the chest and large rectangular forms overlapping the body.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "E01",
+      "image_relative_path": "references/E01.jpg",
+      "content_description": "Three people stand on a bridge beside a railing; the foreground figure holds both hands to the face with mouth open, while water and hills stretch behind.",
+      "sha256": "dfe12c7fee4b539100b3699964b430d7a4f080e073e0b8b446d34ba6f683239f",
+      "annotation_source": "reused unchanged original benchmark description; exact reference SHA256 match"
+    },
+    {
+      "reference_id": "E02",
+      "image_relative_path": "references/E02.jpg",
+      "content_description": "One woman with a bare back and cloth around her lap sits before a mirror, lifting both arms to her hair; bottles stand on the dressing table.",
+      "sha256": "6e0f9b8cac0696ef1b17b8a59352a540b691e726c498f2264da294f75c6f8d15",
+      "annotation_source": "reused unchanged original benchmark description; exact reference SHA256 match"
+    },
+    {
+      "reference_id": "E03",
+      "image_relative_path": "references/E03.jpg",
+      "content_description": "One bearded man is shown from the chest upward, wearing a collared jacket, waistcoat, and buttoned shirt, with his head turned slightly to one side.",
+      "sha256": "514540e257797d3718ce249fbad7cf000350de70aa2ee6bd2a32901b3634ef41",
+      "annotation_source": "reused unchanged original benchmark description; exact reference SHA256 match"
+    },
+    {
+      "reference_id": "E04",
+      "image_relative_path": "references/E04.jpg",
+      "content_description": "One seated woman wearing a large decorated hat and a high-collared dress holds an open fan across her chest and turns her face toward the viewer.",
+      "sha256": "fa93490be443f16b1568102dd0eb662ef5cd2c0b96e381d48ddfb0467d686066",
+      "annotation_source": "reused unchanged original benchmark description; exact reference SHA256 match"
+    },
+    {
+      "reference_id": "E05",
+      "image_relative_path": "references/E05.jpg",
+      "content_description": "Two people recline together with their bodies partly covered by rumpled fabric; one rests a head against the other's shoulder, with their hands gathered near their bodies.",
+      "sha256": "ea1b69e4b64a38d4c92c89159932fbb48131fe4c793261c4112b7208dd3e43ba",
+      "annotation_source": "reused unchanged original benchmark description; exact reference SHA256 match"
+    },
+    {
+      "reference_id": "E06",
+      "image_relative_path": "references/E06.jpg",
+      "content_description": "One man wearing an open jacket turns his head to the side and raises one hand near his chest, with large leaves beside him.",
+      "sha256": "68e412afd63547fa299ff738203b292598d7b5e32a318805a9acec6708f775e7",
+      "annotation_source": "reused unchanged original benchmark description; exact reference SHA256 match"
+    },
+    {
+      "reference_id": "E07",
+      "image_relative_path": "references/E07.jpg",
+      "content_description": "A tall cypress stands beside a village of houses and a church, with hills beyond and a night sky containing a crescent moon and many stars.",
+      "sha256": "a5b9220fedb568c6a29d2559577a26fa6da9245b9cdf96977b25aac937182963",
+      "annotation_source": "reused unchanged original benchmark description; exact reference SHA256 match"
+    },
+    {
+      "reference_id": "E08",
+      "image_relative_path": "references/E08.jpg",
+      "content_description": "One man in a jacket, trousers, and lace-up boots sits hunched on a wooden chair, covering his face with both fists beside a fireplace and window.",
+      "sha256": "42991d84da9cad26e29318f19dee35f0a5ae3736a1f1be982f22460b1103c452",
+      "annotation_source": "reused unchanged original benchmark description; exact reference SHA256 match"
+    },
+    {
+      "reference_id": "E09",
+      "image_relative_path": "references/E09.jpg",
+      "content_description": "An arched footbridge with railings crosses a pond filled with water lilies, surrounded by dense shrubs, trees, and hanging willow branches reflected in the water.",
+      "sha256": "e3d7e4f4a7637899687c71c2f0851b211e37b1024c38f93588a1198af161a30a",
+      "annotation_source": "reused unchanged original benchmark description; exact reference SHA256 match"
+    },
+    {
+      "reference_id": "E10",
+      "image_relative_path": "references/E10.jpg",
+      "content_description": "One horse stands with its head lowered and one foreleg bent, among low plants and rounded hills, with its mane hanging along the neck.",
+      "sha256": "0952fb4533890ebe6cffc37d75cd890b69172d47094525039dd0c1388f8323a2",
+      "annotation_source": "reused unchanged original benchmark description; exact reference SHA256 match"
+    },
+    {
+      "reference_id": "E11",
+      "image_relative_path": "references/E11.jpg",
+      "sha256": "ee2b56ae91059938f28848d66c2b9ef84c16e4e5dbd2fab31f5c1360906d6234",
+      "content_description": "A woman stands behind a counter lined with bottles, a bowl of fruit and flowers; a mirror behind her reflects her back, a man in a hat and a crowded room.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "E12",
+      "image_relative_path": "references/E12.jpg",
+      "sha256": "3a3d371f4be37eaf0972b26c74151f32f0d5800f78bd78a9c40adfb02511e2c6",
+      "content_description": "A small boat carrying a standing figure and a covered rectangular object floats before a rocky island, where tall narrow trees rise between cliffs containing openings and masonry structures.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "E13",
+      "image_relative_path": "references/E13.jpg",
+      "sha256": "77d9eafdc62fd46bf82e89f9cdeffce67279c4a9f081f6fd91488a73afb5344c",
+      "content_description": "A group of men sits around a table beneath a window, while two men stand to the right and one points toward the seated figures.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "E14",
+      "image_relative_path": "references/E14.jpg",
+      "sha256": "9eedb3f9b27b8b2c95bd03db8bb09e358f7d8c88321ec9186c791b77a3f442d3",
+      "content_description": "A woman wearing a long dress and a hat stands on a grassy rise, holding an open parasol; a small child stands farther down the slope behind her.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "E15",
+      "image_relative_path": "references/E15.jpg",
+      "sha256": "b8152e9941958a8b89451b38610879800cf058c694a840f9f8c9f2f0a5387ff7",
+      "content_description": "A person reclines on the ground with their head resting on a cushion beside a stringed instrument and a tall vessel, while a lion stands nearby beneath the moon.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "E16",
+      "image_relative_path": "references/E16.jpg",
+      "sha256": "2f4ca91948c3abe8cacee02926d1d58bb277c78f9b9567bbc27c00175abc8a74",
+      "content_description": "Two people embrace on a flower-covered patch of ground; one bends over the other's upturned face while holding their head, and their bodies are wrapped in long patterned garments.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "E17",
+      "image_relative_path": "references/E17.jpg",
+      "sha256": "1142c930f6194db44cb02459b459c6d27831277dbaddf331bc89766d344bd7fb",
+      "content_description": "A woman in a long dress floats on her back in a stream with her hands raised and flowers near her body, surrounded by dense waterside plants and overhanging branches.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "E18",
+      "image_relative_path": "references/E18.jpg",
+      "sha256": "81a426d0d2a1aeb383a8b63b9bf6cdca27ac9c5de506d01fffb899539a0fb813",
+      "content_description": "Small boats with seated figures float on water, with a low sun and its reflection ahead; ships, masts and smoking chimneys line the distant harbor.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "E19",
+      "image_relative_path": "references/E19.jpg",
+      "sha256": "81f4824083bab332f456ef4260b32ab65fd863aa8503056a1b23607ef588f3a3",
+      "content_description": "A tilted basket holds fruit on a cloth-covered table beside a tall bottle; a plate of stacked oblong rolls stands behind more fruit scattered across the folds.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "E20",
+      "image_relative_path": "references/E20.jpg",
+      "sha256": "2f37ff1b215814b82ec6c10448304bd209a537aa25d44e0adeeb09e38d493eea",
+      "content_description": "A crowd of robed figures occupies a vast hall with arched ceilings and wall statues; some converse, while others read, write or gather on the steps.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "E21",
+      "image_relative_path": "references/E21.jpg",
+      "sha256": "adfa31e29ef145a6c87df81b0430dc0242c63e7183b80d7983f300356708116f",
+      "content_description": "A large curling wave rises above long narrow boats crowded with crouching people, while additional waves cross the foreground and a small cone-shaped mountain appears in the distance.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "E22",
+      "image_relative_path": "references/E22.jpg",
+      "sha256": "08be05e3894d60b4edde01cb1ad0a484b82c60ed52cf5088e2d4d7a63119b909",
+      "content_description": "A small boat with a smoking chimney floats in front of a much larger sailing ship; distant vessels and a low sun appear across open water.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "E23",
+      "image_relative_path": "references/E23.jpg",
+      "sha256": "89651393dcba65a540fdb297a27781099f28357c33cce6a466ae48d608ef610e",
+      "content_description": "People stand, sit and recline on a grassy riverbank beneath trees, several holding parasols; a dog crosses the foreground, and boats appear on the water.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "E24",
+      "image_relative_path": "references/E24.jpg",
+      "sha256": "7d9eaaf5a4916dee6f23bce0ac856257098167b838c0c25e351e4fac4ea47502",
+      "content_description": "A horse occupies the center among a bull and open-mouthed human figures; one person holds a limp child, another lies below, and raised hands and lamps appear above.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "E25",
+      "image_relative_path": "references/E25.jpg",
+      "sha256": "ab1ab49d163b1063eb2bf0aca267594e316712ca18c9a5ebdf83098215b86086",
+      "content_description": "A wide-eyed, long-haired man crouches and holds a headless human body in both hands, while bringing it toward his open mouth against an otherwise empty background.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "E26",
+      "image_relative_path": "references/E26.jpg",
+      "sha256": "3d2ba979acfe98d40c9d4433040e839cefa0bc6b9cd6c8b01283cbbf83db5f8f",
+      "content_description": "A young woman turns her head over her shoulder toward the viewer, wearing a wrapped head covering, a large hanging earring and a garment with a narrow collar.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "E27",
+      "image_relative_path": "references/E27.jpg",
+      "sha256": "1b0fa16cbf6f4091370358278049da3d6d26b889b9f1bc323b8583610b4db5fa",
+      "content_description": "A seated woman faces the viewer with her hands resting one over the other, wearing a veil and a long garment, with winding paths, water and distant hills behind her.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "E28",
+      "image_relative_path": "references/E28.jpg",
+      "sha256": "6d267e4f3cf06b1debd4fd96b7a40c2da6abbdb86f7a270b83c7c7e412680ad7",
+      "content_description": "Tables and chairs line an outdoor cafe terrace beneath a broad awning; people sit or walk along the adjoining cobbled street between tall buildings under a star-filled sky.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "E29",
+      "image_relative_path": "references/E29.jpg",
+      "sha256": "f0ef30830e2e41656156f23e5a8701712d5055fe1fcb5be2354a15d00cab9137",
+      "content_description": "Five nude figures dance in a ring, holding or reaching for one another's hands while bending their bodies and lifting their legs above a curved strip of ground.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    },
+    {
+      "reference_id": "E30",
+      "image_relative_path": "references/E30.jpg",
+      "sha256": "387d534190b90256cb700e02500132fbf7afa962920a9761031551352ad9566d",
+      "content_description": "A flowering branch carries several large, densely petaled blooms among broad lobed leaves, with crossing stems and smaller leaves spreading outward across an otherwise empty background.",
+      "annotation_source": "visual inspection of exact SHA-bound reference"
+    }
+  ],
+  "provenance": {
+    "reused_hash_identical_descriptions": 20,
+    "new_visual_annotations": 40,
+    "new_annotation_policy": "same content-only policy; each exact reference image visually inspected",
+    "source_archive_sha256": "9ee0e1000b087ec0c623d961885afc64bed2c3ccb6228d45e3ab530609dcf350"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "validated_at_utc": "2026-11-07T09:32:00.577720+00:00",
+  "method_counts": {
+    "DEADiff_data1200_seed0_20261107": 1200
+  },
+  "paired_scores_verified": 1200,
+  "reference_count": 60,
+  "prompt_count": 20,
+  "explicit_cartesian_coverage": true,
+  "unique_inputs_rehashed_before_and_after": 1260,
+  "independent_validation": "NumPy FP64 dot/norm from all cached raw CLS features",
+  "aggregation_recomputed_from_published_csv": true,
+  "max_absolute_fp32_vs_fp64_cosine_error": 5.8877829611780896e-08,
+  "cosine_tolerance": 1e-06,
+  "model_and_source_rehash_passed": true,
+  "artifacts": {
+    "per_image.csv": {
+      "sha256": "e5f313b6b25983cfcc1fc9d90f90b0f18bb32807e742732348ad385c9b4f4782",
+      "bytes": 688119
+    },
+    "overall.csv": {
+      "sha256": "78d211d3a2b187b2157308088f3fec9f4c26e12c562c837e3fdb9e271d63104b",
+      "bytes": 139
+    },
+    "逐图指标.csv": {
+      "sha256": "e5f313b6b25983cfcc1fc9d90f90b0f18bb32807e742732348ad385c9b4f4782",
+      "bytes": 688119
+    },
+    "指标汇总.csv": {
+      "sha256": "e496f30ce958965638759f5001824b006414ab57fca33269c38a824a1c72c693",
+      "bytes": 256
+    },
+    "summary.json": {
+      "sha256": "39f65b263241146ab867a8d97557e58e57b685c5a204946bcb028cb315b67a3d",
+      "bytes": 719
+    },
+    "evaluation_config.json": {
+      "sha256": "ee9ed0a1cc24bd8555604f48545e60b647530ca468f61ac0047ef6636634e50d",
+      "bytes": 38905
+    },
+    "evaluated_manifest.json": {
+      "sha256": "a8cbcf9c862e23a81653055e3fc3bc039472dba42e3838d0bca7514b967610cd",
+      "bytes": 960831
+    },
+    "source_manifest.json": {
+      "sha256": "5e54a6958a1a6386d036e77c9e5aeb7e050c35e3334a31d3f2c992ad3ac6a99b",
+      "bytes": 34644
+    },
+    "feature_cache_manifest.json": {
+      "sha256": "a51bc895c452d5b4e9a5edf42d2f1b3539a274f49753dd3fe318b0338ce72d10",
+      "bytes": 349
+    }
+  }
+}

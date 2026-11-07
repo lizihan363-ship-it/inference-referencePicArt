@@ -1,0 +1,35 @@
+{
+  "python": "3.12",
+  "platform": "Linux x86_64 NVIDIA CUDA",
+  "metric_packages": {
+    "torch": "2.8.0+cu128",
+    "torchvision": "0.23.0+cu128",
+    "transformers": "4.46.3",
+    "clip": "1.0",
+    "dreamsim": "0.2.1",
+    "peft": "0.13.2",
+    "numpy": "2.3.2",
+    "Pillow": "11.3.0",
+    "safetensors": "0.8.0",
+    "tokenizers": "0.20.3",
+    "timm": "0.9.16",
+    "open_clip_torch": "2.26.1",
+    "accelerate": "1.1.1",
+    "ftfy": "6.3.1"
+  },
+  "download_helper_packages": {
+    "modelscope": "1.37.1",
+    "huggingface_hub": "0.36.2",
+    "scipy": "1.18.1"
+  },
+  "backend_sha256": "0d21c71c654a084bf3b93f0e1d5cdc0901ec7667b7aecd07c7e3ec578cab4373",
+  "model_file_count": 21,
+  "model_file_count_note": "原六项21个关键模型/配置/源码文件，新增DINOv3权重和221个固定官方源码文件单独核验",
+  "dino_model": "dinov3_vitl16 LVD1689M",
+  "dino_metric_packages": {
+    "torch": "2.8.0+cu128",
+    "torchvision": "0.23.0+cu128",
+    "numpy": "2.3.2",
+    "Pillow": "11.3.0"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "errors": [],
+  "verified_at_utc": "2026-11-07T09:33:46.403470+00:00",
+  "method": "DEADiff_data1200_seed0_20261107",
+  "metric_selection": "all",
+  "image_count": 1200,
+  "reference_count": 60,
+  "prompt_count": 20,
+  "input_files_rehashed": 1260,
+  "metric_means": {
+    "csd_style_cosine": 0.2983677319875763,
+    "gram_style_distance": 6.235839463897719e-05,
+    "dreamsim_distance": 0.6442984972397486,
+    "clip_t_target_cosine": 0.31017852187156675,
+    "leakage_score": 0.22109032167906081,
+    "clip_t_reference_content_cosine": 0.06296692636599194,
+    "dino_reference_cosine": 0.15411656570698445
+  },
+  "summaries_independently_recomputed": true,
+  "original_updated_generation_identity_verified": true,
+  "unchanged_generation_images_verified": 1160,
+  "replaced_generation_images_verified": 40,
+  "package_files_verified": 41,
+  "input_manifest_sha256": "b43ffa5ff7f72e4c29f0330fb7de62a6207b2b30cc19823ef04f286361878fd7",
+  "combined_summary_sha256": "b72c122c256eafbf91e77ca591e15079f5457ae55e5df122d375eeba9864786c",
+  "official_validations": {
+    "strict_validation.json": {
+      "passed": true,
+      "sha256": "b917581fa4f9a228570fdd20573798b3d433af98a080a8937826f32c4ed41be8"
+    },
+    "validation.json": {
+      "passed": true,
+      "sha256": "aa40010ce7555dda719e2a2b01ff56263c95a00e669e0dc4a447366caa810f17"
+    },
+    "dino/validation.json": {
+      "passed": true,
+      "sha256": "e9fea98e1c9aec60bc7075ed19e979328a9015979096b97907f00b9d802c7dc9"
+    }
+  }
+}

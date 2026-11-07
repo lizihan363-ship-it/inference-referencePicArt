@@ -1,0 +1,76 @@
+{
+  "state": "complete",
+  "metrics": {
+    "csd_style_cosine": "higher",
+    "gram_style_distance": "lower",
+    "dreamsim_distance": "lower",
+    "clip_t_target_cosine": "higher",
+    "leakage_score": "lower",
+    "clip_t_reference_content_cosine": "lower (leakage diagnostic)"
+  },
+  "methods": {
+    "DEADiff_data1200_seed0_20261107": {
+      "csd_style_cosine": {
+        "n": 1200,
+        "mean": 0.2983677319875763,
+        "std": 0.15005951753312483,
+        "median": 0.2984998971223831,
+        "min": -0.09603780508041382,
+        "max": 0.7308605909347534
+      },
+      "gram_style_distance": {
+        "n": 1200,
+        "mean": 6.235839463897719e-05,
+        "std": 0.00011698532937798821,
+        "median": 3.545262370607816e-05,
+        "min": 2.472011146892328e-06,
+        "max": 0.0016894582659006119
+      },
+      "dreamsim_distance": {
+        "n": 1200,
+        "mean": 0.6442984972397486,
+        "std": 0.09032819004538357,
+        "median": 0.6430440247058868,
+        "min": 0.35058432817459106,
+        "max": 0.9443238377571106
+      },
+      "clip_t_target_cosine": {
+        "n": 1200,
+        "mean": 0.31017852187156675,
+        "std": 0.046613191091653274,
+        "median": 0.3141019642353058,
+        "min": 0.10313232988119125,
+        "max": 0.4343448579311371
+      },
+      "leakage_score": {
+        "n": 1200,
+        "mean": 0.22109032167906084,
+        "std": 0.2473706162001302,
+        "median": 0.19296902549067674,
+        "min": -0.3849438318996243,
+        "max": 1.0176562563826503
+      },
+      "clip_t_reference_content_cosine": {
+        "n": 1200,
+        "mean": 0.06296692636599194,
+        "std": 0.07038168244278797,
+        "median": 0.05620875582098961,
+        "min": -0.12255388498306274,
+        "max": 0.3238186240196228
+      }
+    }
+  },
+  "method_counts": {
+    "DEADiff_data1200_seed0_20261107": 1200
+  },
+  "pair_count": 1200,
+  "reference_count": 60,
+  "small_or_nonpositive_reference_content_denominators": 0,
+  "equation": {
+    "formula": "s(g,c_ref)/s(ref,c_ref) if s(g,c_ref)<s(g,target) else 1",
+    "epsilon_or_clipping": false,
+    "zero_denominator_in_ratio_branch": "fail explicitly",
+    "denominator_at_most_1e-6": "flag only; do not alter paper equation"
+  },
+  "config_sha256": "5a9d0535694ad2227a2080df42e489cae1e001d80fa2b2732f4951f4c6199cc0"
+}

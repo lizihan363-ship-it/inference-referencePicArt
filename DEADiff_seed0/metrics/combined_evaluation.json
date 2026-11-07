@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "metric_selection": "all",
+  "metric_keys": [
+    "csd_style_cosine",
+    "gram_style_distance",
+    "dreamsim_distance",
+    "clip_t_target_cosine",
+    "leakage_score",
+    "clip_t_reference_content_cosine",
+    "dino_reference_cosine"
+  ],
+  "source_artifacts_sha256": {
+    "per_image.csv": "c345b73a69ae139aaf995f22f7cab36015112160893c10a8c53603ae0e083c1f",
+    "summary.json": "8f4d4764b041a604d649ce55114e132a67f35f455a65e9c39cf1dfd1fdcc98c1",
+    "evaluation_config.json": "156da75b302e26297de3cf3ebd4ef23b0958f770c61f10d95048d7080b9f4f77",
+    "validation.json": "aa40010ce7555dda719e2a2b01ff56263c95a00e669e0dc4a447366caa810f17",
+    "dino/per_image.csv": "e5f313b6b25983cfcc1fc9d90f90b0f18bb32807e742732348ad385c9b4f4782",
+    "dino/summary.json": "39f65b263241146ab867a8d97557e58e57b685c5a204946bcb028cb315b67a3d",
+    "dino/evaluation_config.json": "ee9ed0a1cc24bd8555604f48545e60b647530ca468f61ac0047ef6636634e50d",
+    "dino/validation.json": "e9fea98e1c9aec60bc7075ed19e979328a9015979096b97907f00b9d802c7dc9"
+  },
+  "input_manifest_sha256": "b43ffa5ff7f72e4c29f0330fb7de62a6207b2b30cc19823ef04f286361878fd7",
+  "aggregation": "equal weight per image; arithmetic mean; sample std ddof=1",
+  "dino_interpretation": "Higher means more similar to original reference; not a pure style or leakage score."
+}
